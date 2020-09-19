@@ -25,7 +25,6 @@ export function transactionReducer(
           else return prev;
         }
       ).id;
-      console.log(nextId);
       const newTransaction: ITransaction = {
         ...action.payload,
         id: ++nextId,
@@ -34,14 +33,12 @@ export function transactionReducer(
         transactions: [...state.transactions, newTransaction],
       };
     case UPDATE_TRANSACTION:
-      console.log(action.payload);
       return {
         transactions: state.transactions.map((item) =>
           item.id === action.payload.id ? { ...action.payload } : item
         ),
       };
     case DELETE_TRANSACTION:
-      console.log(action.payload);
       return {
         transactions: state.transactions.filter(
           (transaction) => transaction.id !== action.payload.id

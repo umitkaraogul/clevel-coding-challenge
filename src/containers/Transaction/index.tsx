@@ -12,7 +12,7 @@ import {
   updateTransaction,
 } from "../../store/actions";
 
-import "./Transaction.css";
+import "./Transaction.scss";
 
 export default () => {
   const [isModalOpen, setIsModalOpen] = useState(false);

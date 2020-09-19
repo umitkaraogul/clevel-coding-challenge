@@ -7,7 +7,7 @@ import Setting from "../Setting";
 import Account from "../Account";
 
 import "bootstrap/dist/css/bootstrap.min.css";
-import "./App.css";
+import "./App.scss";
 
 function App() {
   return (

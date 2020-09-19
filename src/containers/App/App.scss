@@ -1,0 +1,16 @@
+@import "../../sass/colors";
+.App {
+  text-align: center;
+  display: flex;
+  .Navigation {
+    text-align: left;
+  }
+  .nav-link.active {
+    background-color: $background-color;
+  }
+}
+
+.full-screen {
+  width: 90%;
+  margin: 30px;
+}

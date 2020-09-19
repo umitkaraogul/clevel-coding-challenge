@@ -1,68 +1,54 @@
+# Clevel Coding Challenge
+
+    This repository contains the complete source code for the runtime of Clevel Coding Challenge UI.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Getting Started
 
-In the project directory, you can run:
+The document is aimed to describe how to use and run Clevel Challenge UI
 
-### `npm start`
+### Prerequisites
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- Nodejs
+- Git
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+### Installing
 
-### `npm test`
+Install [npm](https://nodejs.org/en/download/) or [Yarn](https://yarnpkg.com)
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Clone whole source code as follows and go to financial-house-report folder
 
-### `npm run build`
+```
+git clone https://github.com/umitkaraogul/clevel-coding-challenge
+```
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```
+cd clevel-coding-challenge
+```
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+## Running
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```
+    cd clevel-coding-challenge
+    yarn install
+    yarn start
+```
 
-### `npm run eject`
+> The front end will start on [port 3000](http://localhost:3000)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Deployment
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+This project deployed on [Netlify](https://netlify.app/)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+You can test [the application on Netlify.](https://clevel-coding-challenge.netlify.app/)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+[![Netlify Status](https://api.netlify.com/api/v1/badges/323ccebb-7059-47fc-a6c3-fef3fc749750/deploy-status)](https://app.netlify.com/sites/clevel-coding-challenge/deploys)
 
-## Learn More
+## Built With
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- [yarn](https://yarnpkg.com/) - JavaScript Package Manager
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Authors
 
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+- **Umit Karaogul** - _Initial work_ - [clevel-coding-challenge](https://github.com/umitkaraogul/clevel-coding-challenge)
