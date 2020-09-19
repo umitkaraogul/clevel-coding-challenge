@@ -1,0 +1,38 @@
+.full-screen {
+  width: 90%;
+  margin: 20px;
+}
+.table-top-right {
+  float: right;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+thead,
+tfoot {
+  font-weight: bold;
+}
+
+thead,
+tbody,
+tfoot,
+tr {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+}
+
+tbody {
+  display: block;
+  overflow: auto;
+  table-layout: fixed;
+  max-height: 70vh;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 10px;
+  margin: 10px;
+}
