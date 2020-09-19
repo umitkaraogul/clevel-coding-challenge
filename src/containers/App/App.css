@@ -6,3 +6,8 @@
 .Navigation {
   text-align: left;
 }
+
+.full-screen {
+  width: 90%;
+  margin: 20px;
+}

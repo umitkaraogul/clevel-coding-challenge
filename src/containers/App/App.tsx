@@ -6,6 +6,7 @@ import Dashboard from "../Dashboard";
 import Setting from "../Setting";
 import Account from "../Account";
 
+import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 
 function App() {
