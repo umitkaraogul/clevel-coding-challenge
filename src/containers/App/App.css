@@ -6,6 +6,9 @@
 .Navigation {
   text-align: left;
 }
+.nav-link.active {
+  background-color: lightgray;
+}
 
 .full-screen {
   width: 90%;

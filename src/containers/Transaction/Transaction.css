@@ -7,6 +7,7 @@
 thead,
 tfoot {
   font-weight: bold;
+  background-color: lightgray;
 }
 
 thead,
@@ -31,4 +32,8 @@ th {
   text-align: left;
   padding: 10px;
   margin: 10px;
+}
+
+.body-half-screen {
+  max-height: 60vh;
 }
